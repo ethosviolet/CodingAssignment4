@@ -1,0 +1,38 @@
+
+body {background-image: url("/images/Kitchen_at_Seattle_City_Light_south_service_center,_1970_(52887432588).jpg"); 
+background-size: cover;}
+a {font-family: Atkinson Hyperlegible Mono;}
+a span{background-color: rgb(153, 90, 255);
+text-shadow: 2px 2px 4px #ffc77d;}
+h1 {text-align: center;
+font-family: Plaster;
+font-size: 36px;
+color: rgb(247, 140, 18);}
+h1 span{background-color: #830202;}
+h2 {font-family: Plaster;
+font-size: 24px;
+color: rgb(72, 145, 255);}
+h2 span {background-color: hsl(140, 92%, 19%);}
+h3 {font-family: Plaster;
+font-size: 20px;
+color: hsl(140, 92%, 19%);}
+h3 span {background-color: rgb(72, 145, 255) ;}
+.grid-item1 {border-radius: 5px;
+padding: 10px;
+grid-area: topleft;}
+.grid-item2 {border-radius: 5px;
+padding: 10px;
+grid-area: topright;}
+.grid-item3 {border-radius: 5px;
+padding: 10px;
+grid-area: bottomleft;}
+.grid-item4 {border-radius: 5px;
+padding: 10px;
+grid-area: bottomright;
+place-self: center;}
+.container {display: grid;
+gap: 1.5rem;
+padding-left: 50px;
+padding-right: 50px;
+grid-template-areas: "topleft topright"
+"bottomleft bottomright";}
