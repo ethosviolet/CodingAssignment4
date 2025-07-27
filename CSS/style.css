@@ -1,8 +1,7 @@
 body {background-image: url("../images/retrokitchen.jpg"); 
 background-size: cover;}
 a {font-family: Atkinson Hyperlegible Mono;}
-a span{background-color: rgb(153, 90, 255);
-text-shadow: 2px 2px 4px #ffc77d;}
+a span {background-color: rgb(153, 90, 255);}
 h1 {text-align: center;
 font-family: Plaster;
 font-size: 36px;
@@ -27,8 +26,7 @@ padding: 10px;
 grid-area: bottomleft;}
 .grid-item4 {border-radius: 5px;
 padding: 10px;
-grid-area: bottomright;
-place-self: center;}
+grid-area: bottomright;}
 .container {display: grid;
 gap: 1.5rem;
 padding-left: 50px;
