@@ -1,0 +1,69 @@
+a span{
+background-color: rgba(255, 255, 255, 0.75);
+font-family: Didact Gothic;
+border-radius: 25px;
+text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.75);}
+body {background-image: url("../images/Nanaimo_CityView.jpeg"); 
+background-size: cover ;}
+h1 {text-align: center;   
+font-family: Oregano;
+font-size: 50px;}
+h1 span{background-color: #ff0000;
+border-radius: 25px;
+text-shadow: 2px 2px 4px white;
+}
+h2 {font-family: Oregano;
+font-size: 32px;}
+h2 span {background-color: hsl(0, 0%, 100%);
+border-radius: 25px;
+text-shadow: 2px 2px 4px red;}
+h3 {font-family: Oregano;
+font-size: 24px;}
+h3 span {background-color: red;
+border-radius: 25px;
+text-shadow: 2px 2px 4px white;}
+p {font-family: Didact Gothic;
+justify-content: center;}
+figure {display: block;
+justify-content: center; }
+#img-div {text-align: center;}
+figcaption {font-family: Didact Gothic;
+background-color: rgba(255, 255, 255, 0.75);
+text-align: center;
+margin-left: auto;
+margin-right: auto;}
+ul {font-family: Didact Gothic;}
+.listformat {background-color: rgba(255, 255, 255, 0.75);
+display: inline-block; 
+border-radius: 30px;}
+li {font-family: Didact Gothic;}
+li span {background-color:#ffff00ca;
+border-radius: 5px;}
+ol {font-family: Didact Gothic;}
+input {font-family: Didact Gothic;}
+fieldset{background-color: rgba(255, 255, 255, 0.75);}
+legend {font-family: Didact Gothic;
+background-color: #ffff00ca;
+display: inline-block;}
+.toplevel {display: flex;
+flex-direction: column;
+align-items:center;}
+.grid-item1 {border-radius: 5px;
+padding: 10px;
+grid-area: topleft;}
+.grid-item2 {border-radius: 5px;
+padding: 10px;
+grid-area: topright;}
+.grid-item3 {border-radius: 5px;
+padding: 10px;
+grid-area: bottomleft;}
+.grid-item4 {border-radius: 5px;
+padding: 10px;
+grid-area: bottomright;
+place-self: center;}
+.container {display: grid;
+gap: 1.5rem;
+padding-left: 50px;
+padding-right: 50px;
+grid-template-areas: "topleft topright"
+"bottomleft bottomright";}
